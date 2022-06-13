@@ -2,10 +2,9 @@
 import pandas as pd
 
 if __name__ == '__main__':
-
-    ruta = 'C://Users//nuria//Desktop//daniel//Opti//programas//vogel.csv' # ruta del archivo
+    ruta = r'/home/atorres/proyects/en_cm_v/vogel.csv' # ruta del archivo
     esquina_noro = pd.read_csv(ruta) #lee el archivo
-    esquina_noro = esquina_noro.set_index('fuentes') # No cambiar de nombre
+    esquina_noro = esquina_noro.set_index('silos') # No cambiar de nombre
    
     
     #crea una copia del archivo origel para poder las soluciones

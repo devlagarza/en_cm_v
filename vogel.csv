@@ -1,4 +1,5 @@
-fuentes,destino1,destino2,destino3,destino4,Oferta
-fuente1,2,6,6,2,5000
-fuente2,1,2,5,7,3000
-Demanda,1400,3200,2000,1400,0
+silos,molino1,molino2,molino3,molino4,Oferta
+silo1,10,2,20,11,15
+silo2,12,7,9,20,25
+silo3,4,14,16,18,10
+Demanda,5,15,15,15,0

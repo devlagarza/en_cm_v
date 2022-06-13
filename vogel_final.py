@@ -3,6 +3,9 @@
 Created on Sat Apr  4 17:49:18 2020
 
 @author: Carlos
+
+Modified on Mon Jun 13 17:17 2022
+@modified by: Alejo Torres 
 """
 import pandas as pd
 
@@ -11,7 +14,7 @@ import sys
 
 if __name__ == '__main__':
     
-    ruta = r'C:/Users/nuria/Desktop/daniel/Opti/programas/' # ruta del archivo
+    ruta = r'/home/atorres/proyects/en_cm_v/vogel.csv' # ruta del archivo
     vogel = pd.read_csv('vogel.csv')
     vogel.dropna(inplace=True)
     vogel = vogel.set_index('fuentes')

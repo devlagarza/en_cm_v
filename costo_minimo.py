@@ -4,7 +4,7 @@ import pandas as pd
  
 if __name__ == '__main__':
 
-    ruta = r'C:/Users/nuria/Desktop/daniel/Opti/programas/'
+    ruta = r'/home/atorres/proyects/en_cm_v/vogel.csv' 
     costo_min = pd.read_csv('vogel.csv')
     costo_min.dropna(inplace=True)
     costo_min = costo_min.set_index('fuentes')
